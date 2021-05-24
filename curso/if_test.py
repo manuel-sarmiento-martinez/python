@@ -5,3 +5,4 @@ elif x == 1:
     result = 'Error: x igual 1'
 else:
     result = 'Error: X distinto 2'
+print(result)
