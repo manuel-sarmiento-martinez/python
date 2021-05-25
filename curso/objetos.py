@@ -5,14 +5,18 @@ class animal:
     def esta_vivo(self):
         print("Esta vivo: " + self.vivo)
 
+
 class gato(animal):
     def correr(self):
         print("El gato esta corriendo")
+
     def dormir(self):
-        print("El gato esta durmiendo")
+        print("ZZZZzzzzz ZZZZZZzzzzz")
+
     def ronronear(self):
-        print("El gato esta ronroneando")
-        
+        print("RRRR RRRRR RRRRR RRRRR")
+
+
 garfield = gato("si")
 
 garfield.esta_vivo()
