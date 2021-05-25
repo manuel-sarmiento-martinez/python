@@ -1,0 +1,10 @@
+lista = ["a", "b", "c", "d", "f"]
+print(lista)
+lista.extend(["x"])
+print(lista)
+lista.extend(["y","z"])
+print(lista)
+lista.insert(5, "g")
+print(lista)
+lista.remove("c")
+print(lista)
