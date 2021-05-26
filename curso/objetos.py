@@ -1,5 +1,6 @@
 import unittest
 
+
 class animal:
     def __init__(self, vivo):
         self.vivo = vivo
@@ -26,8 +27,8 @@ garfield.ronronear()
 garfield.dormir()
 garfield.correr()
 
+
 class TestResult(unittest.TestCase):
-    
+
     def test_vivo(self):
-        self.assertEqual(garfield.vivo,"si")
-        
+        self.assertEqual(garfield.vivo, "si")

@@ -9,8 +9,8 @@ else:
     result = 'Error: X distinto 2'
 print(result)
 
+
 class TestResult(unittest.TestCase):
-    
+
     def test_result(self):
         self.assertTrue(result)
-        
